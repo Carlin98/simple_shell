@@ -62,14 +62,13 @@ Your Shell should:
 	* If an executable cannot be found, print an error message and display the prompt again.    
 	* Handle errors.    
 	* You have to handle the “end of file” condition (Ctrl+D)     
-
 You don’t have to:    
 	* use the PATH    
 	* implement built-ins    
 	* handle special characters : ", ', `, \, *, &, #     
 	* be able to move the cursor    
 	* handle commands with arguments    
-*execve will be the core part of your Shell, don’t forget to pass the environ to it…*
+*execve will be the core part of your Shell, don’t forget to pass the environ to it…*    
 * 2. Simple shell 0.1 +    
 	* Handle command lines with arguments    
 * 3. Simple shell 0.2 +    
@@ -81,5 +80,3 @@ You don’t have to:
 	* You don’t have to handle any argument to the built-in exit     
 * 5. Simple shell 0.4 +    
 	* Implement the env built-in, that prints the current environment     
-
-
